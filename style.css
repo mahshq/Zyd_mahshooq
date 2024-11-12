@@ -1,0 +1,209 @@
+
+.wrapper{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.round {
+    clip-path: polygon(0 0, 100% 0, 75% 100%, 25% 100%);
+    color: #000;
+    font-size: 28px;
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    list-style-type: none;
+}
+
+.head {
+    clip-path: polygon(0 0, 100% 0, 94% 100%, 6% 100%);
+    
+}
+
+.style {
+    font-family: "Audiowide", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+}
+
+.nike {
+    font-size: 350px;
+    font-family: "Six Caps", sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+    text-align: center;
+    color: #fff;
+    line-height: normal;
+    
+}
+
+.bar {
+    line-height: 90%;
+}
+
+@keyframes slideInFromLeft {
+    from { transform: translateX(-100%); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes slideInFromRight {
+    from { transform: translateX(100%); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes slideInFromTop {
+    from { transform: translateY(-100%); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes slideInFromBottom {
+    from { transform: translateY(100%); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes zoomIn {
+    from { transform: scale(0.8); opacity: 0; }
+    to { transform: scale(1); opacity: 1; }
+}
+
+.animate-slide-left {
+    animation: slideInFromLeft 1s ease-out forwards;
+}
+
+.animate-slide-right {
+    animation: slideInFromRight 1s ease-out forwards;
+}
+
+.animate-slide-top {
+    animation: slideInFromTop 1s ease-out forwards;
+}
+
+.animate-slide-up {
+    animation: slideInFromBottom 1s ease-out forwards;
+}
+
+.animate-fade-in {
+    animation: fadeIn 1.5s ease-in forwards;
+}
+
+.animate-zoom-in {
+    animation: zoomIn 1s ease-out forwards;
+}
+
+/* Keyframe for sliding in from the top */
+@keyframes slide-up {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Keyframe for sliding in from the bottom */
+@keyframes slide-down {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Keyframe for fade-in */
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Apply animations to elements */
+.animate-slide-up {
+    animation: slide-up 1s ease-out forwards;
+}
+
+.animate-slide-down {
+    animation: slide-down 1s ease-out forwards;
+}
+
+.animate-fade-in {
+    animation: fade-in 1s ease-out forwards;
+}
+
+
+
+
+@keyframes slide-up-div {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slide-up-button {
+    from {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Apply animations to div and button */
+.animate-slide-up-div {
+    animation: slide-up-div 1s ease-out forwards;
+}
+
+.animate-slide-up-button {
+    animation: slide-up-button 1s ease-out forwards;
+}
+
+@keyframes slide-down-in {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Apply animation to the bar */
+.animate-slide-down-in {
+    animation: slide-down-in 1s ease-out forwards;
+}
+
+
+.project {
+    background-image: url(/image/project.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
